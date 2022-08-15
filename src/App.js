@@ -1,5 +1,4 @@
-import './cat-style.scss';
-import Categories from './components/categories/categories-component';
+import Catcontainer from "./components/categories/categories-container";
 
 const App = () => {
 
@@ -48,16 +47,9 @@ const App = () => {
       <div className='pagetitle'>
         <h1>AIDOO ONLINE STORE</h1>
       </div>
+
+      <Catcontainer categories = {categories} />
         
-      <div className="container">
-
-        {categories.map((categories) => (
-
-          <Categories key={categories.id} category={categories} />
-
-        ))}
-        
-      </div>
     </div>
   );
 }

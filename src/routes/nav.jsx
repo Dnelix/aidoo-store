@@ -21,7 +21,7 @@ const Nav = () => {
                     <NavLink to={'/'} className="nav-link" >Home</NavLink>
                     <NavLink to={'/shop'} className="nav-link" >Shop</NavLink>
                     <NavLink to={'/contact'} className="nav-link" >Contact</NavLink>
-                    <NavLink to={'/signin'} className="nav-link" >Sign in</NavLink>
+                    <NavLink to={'/login'} className="nav-link" >Sign in</NavLink>
                     <NavLink to={'/cart'} className="nav-link" >XX</NavLink>
                 </div>
             </div>
